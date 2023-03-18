@@ -121,7 +121,7 @@ $( document ).ready(function() {
                     .attr("width", "100%")
                     .attr("loading", "lazy")
                     .attr("alt", "Photo du disque " + vinyl.title + " (" + photo + ")")
-                    .attr( "src", "img_vinyles/" + photo )
+                    .attr( "src", "images/" + photo )
                     .appendTo(div);
                 div.appendTo( divResult );
             });
